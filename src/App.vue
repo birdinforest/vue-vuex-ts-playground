@@ -1,9 +1,10 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/todo">Todo</router-link>
   </div>
-  <router-view/>
+  <router-view />
 </template>
 
 <style>
@@ -27,4 +28,6 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+@import '~bulma/css/bulma.css';
 </style>
